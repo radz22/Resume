@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.col-3{
+    /* background-color: #D2B48C	; */
+    background: linear-gradient(90deg, rgb(249, 115, 155) 0%, rgb(249, 115, 155) 0%, rgb(39, 38, 44) 100%);
+    height: auto;
+}
+
+.resume-img{
+    
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.resume-img img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.name h1{
+    font-family: 'Poltawski Nowy', serif;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    margin-bottom: 71px;
+    
+}
+.name span{
+    font-weight: 700;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid #616161;
+    position: relative;
+    bottom: 20px;
+}
+.contact-title p {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poltawski Nowy', serif;
+    color: #fff;
+}
+
+.fb-icons-and-text  p {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.facebook-content i {
+    font-size: 35px;
+    color: #000;
+}
+
+.facebook-user li{
+    font-size: 18px;
+    color: #fff;
+}
+
+.facebook-user  .school{
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    
+}
+
+.name h1{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 20px;
+   
+}
+.summary h2, .skills h2{
+    font-size: 40px;
+    font-family: 'Poltawski Nowy', serif;
+    font-weight: 700;
+}
+.summary p {
+    font-size: 17;
+    font-family: 'Poltawski Nowy', serif;
+    font-weight: 400;
+}
+
+.lines{
+    width: 100%;
+    border:1px solid #616161;
+}
+.skills-content li{
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
